@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/common/vendor/display/5.4
 
 PRODUCT_COPY_FILES += \
-    vendor/qcom/common/vendor/display/5.4/proprietary/vendor/bin/feature_enabler_client:$(TARGET_COPY_OUT_VENDOR)/bin/feature_enabler_client \
     vendor/qcom/common/vendor/display/5.4/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/qcom/common/vendor/display/5.4/proprietary/vendor/bin/ppd:$(TARGET_COPY_OUT_VENDOR)/bin/ppd \
     vendor/qcom/common/vendor/display/5.4/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
