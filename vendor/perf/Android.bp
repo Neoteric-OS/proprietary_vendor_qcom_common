@@ -34,12 +34,3 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "vendor.qti.qspmhal-service.xml",
-	owner: "qcom/common",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.qspmhal-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
