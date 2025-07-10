@@ -74,17 +74,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uimlpaservice",
-	owner: "qcom/common",
-	apk: "proprietary/product/app/uimlpaservice/uimlpaservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "uimremoteclient",
 	owner: "qcom/common",
 	apk: "proprietary/product/app/uimremoteclient/uimremoteclient.apk",
@@ -143,17 +132,6 @@ android_app_import {
 	name: "ImsDataChannelService",
 	owner: "qcom/common",
 	apk: "proprietary/system_ext/app/ImsDataChannelService/ImsDataChannelService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "ImsRcsService",
-	owner: "qcom/common",
-	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -864,6 +842,13 @@ dex_import {
 	name: "vendor.qti.ims.datachannelservice-V2-java",
 	owner: "qcom/common",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.datachannelservice-V2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.datachannelservice-V3-java",
+	owner: "qcom/common",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.datachannelservice-V3-java.jar"],
 	system_ext_specific: true,
 }
 
