@@ -31,10 +31,3 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-sh_binary {
-	name: "aptxalsOverlayCreateProject",
-	owner: "qcom/common",
-	src: "proprietary/system_ext/bin/aptxalsOverlayCreateProject.sh",
-	filename: "aptxalsOverlayCreateProject.sh",
-	system_ext_specific: true,
-}
