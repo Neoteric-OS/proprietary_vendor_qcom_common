@@ -7,13 +7,24 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/display/proprietary/product/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/qcom/common/system/display/proprietary/system/bin/gppservice:$(TARGET_COPY_OUT_SYSTEM)/bin/gppservice \
+    vendor/qcom/common/system/display/proprietary/system/etc/gpp_app_list:$(TARGET_COPY_OUT_SYSTEM)/etc/gpp_app_list \
+    vendor/qcom/common/system/display/proprietary/system/etc/init/gppservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/gppservice.rc \
+    vendor/qcom/common/system/display/proprietary/system/etc/seccomp_policy/gppservice.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/gppservice.policy \
+    vendor/qcom/common/system/display/proprietary/system/lib64/libgppextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgppextension.so \
+    vendor/qcom/common/system/display/proprietary/system/lib64/libgpphexlpsession.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgpphexlpsession.so \
+    vendor/qcom/common/system/display/proprietary/system/lib64/libgpppreprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgpppreprocessing.so \
+    vendor/qcom/common/system/display/proprietary/system/lib64/libgpptxr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgpptxr.so \
+    vendor/qcom/common/system/display/proprietary/system/lib64/libgppvppgfrcplussession.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgppvppgfrcplussession.so \
+    vendor/qcom/common/system/display/proprietary/system/lib64/vendor.qti.hardware.hexlp-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.hexlp-V2-ndk.so \
     vendor/qcom/common/system/display/proprietary/system_ext/lib64/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsd_sdk_display.qti.so \
     vendor/qcom/common/system/display/proprietary/system_ext/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdm-disp-apis.qti.so \
     vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.0.so \
     vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
     vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
     vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.3.so \
-    vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so
+    vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so \
+    vendor/qcom/common/system/display/proprietary/system_ext/lib64/vendor.qti.hardware.vpp-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.vpp-V1-ndk.so
 
 PRODUCT_PACKAGES += \
     colorservice \

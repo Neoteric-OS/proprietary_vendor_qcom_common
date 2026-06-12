@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/gps/proprietary/system_ext/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.location.xml \
     vendor/qcom/common/system/gps/proprietary/system_ext/etc/permissions/com.qualcomm.qti.izattools.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.izattools.xml \
     vendor/qcom/common/system/gps/proprietary/system_ext/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
+    vendor/qcom/common/system/gps/proprietary/system_ext/lib64/libloc2jnibridge.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libloc2jnibridge.so \
     vendor/qcom/common/system/gps/proprietary/system_ext/lib64/libqcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc.so \
     vendor/qcom/common/system/gps/proprietary/system_ext/lib64/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_file_agent_sys.so \
     vendor/qcom/common/system/gps/proprietary/system_ext/lib64/libqcc_netstats.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_netstats.so \
@@ -27,7 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/gps/proprietary/system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccvndhal@1.0.so \
     vendor/qcom/common/system/gps/proprietary/system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so \
     vendor/qcom/common/system/gps/proprietary/system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qccsyshal_aidl-halimpl.so \
-    vendor/qcom/common/system/gps/proprietary/system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
+    vendor/qcom/common/system/gps/proprietary/system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so \
+    vendor/qcom/common/system/gps/proprietary/system_ext/lib64/vendor.qti.qccvndhal_aidl-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qccvndhal_aidl-V2-ndk.so
 
 PRODUCT_PACKAGES += \
     QCC \

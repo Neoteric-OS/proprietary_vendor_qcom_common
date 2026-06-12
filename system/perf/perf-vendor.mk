@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/perf/proprietary/system_ext/lib64/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbeluga.so \
     vendor/qcom/common/system/perf/proprietary/system_ext/lib64/libcomposerextn.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomposerextn.qti.so \
     vendor/qcom/common/system/perf/proprietary/system_ext/lib64/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdolphin.so \
+    vendor/qcom/common/system/perf/proprietary/system_ext/lib64/libdolphin_ext.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdolphin_ext.so \
     vendor/qcom/common/system/perf/proprietary/system_ext/lib64/libjpegdecoder_ext.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjpegdecoder_ext.so \
     vendor/qcom/common/system/perf/proprietary/system_ext/lib64/libjpegencoder_ext.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjpegencoder_ext.so \
     vendor/qcom/common/system/perf/proprietary/system_ext/lib64/liblayerext.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblayerext.qti.so \
