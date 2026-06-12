@@ -33,6 +33,7 @@ rt_sigreturn: 1
 restart_syscall: 1
 exit: 1
 exit_group: 1
+mprotect: 1
 faccessat: 1
 getrlimit: 1
 read: 1
@@ -49,6 +50,7 @@ renameat: 1
 unlinkat: 1
 madvise: 1
 mprotect: arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE
+fstat: 1
 clock_gettime: 1
 socket: arg0 == AF_UNIX
 rt_sigprocmask: 1
@@ -64,13 +66,14 @@ sched_getaffinity: 1
 pipe2: 1
 
 # crash dump policy additions
+sigreturn: 1
 gettid: 1
 recvmsg: 1
 process_vm_readv: 1
 tgkill: 1
 rt_tgsigqueueinfo: 1
-geteuid: 1
-getgid: 1
-getegid: 1
-getgroups: 1
+geteuid32: 1
+getgid32: 1
+getegid32: 1
+getgroups32: 1
 renameat2: 1
