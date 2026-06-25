@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/telephony/proprietary/product/lib64/libjni_aidl_service.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjni_aidl_service.so \
     vendor/qcom/common/system/telephony/proprietary/product/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/qcom/common/system/telephony/proprietary/product/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+    vendor/qcom/common/system/telephony/proprietary/system/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteclient.xml \
+    vendor/qcom/common/system/telephony/proprietary/system/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteserver.xml \
     vendor/qcom/common/system/telephony/proprietary/system/lib64/vendor.qti.diaghal-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.diaghal-V1-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/bin/diag_callback_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_callback_sample_system \
     vendor/qcom/common/system/telephony/proprietary/system_ext/bin/diag_dci_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_dci_sample_system \
@@ -70,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/libdiag_system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.qti.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
+    vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/libdiagatbparser_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiagatbparser_system.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
@@ -92,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ImsRtpService-V1-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ImsRtpService-V2-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.dmapconsent-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.dmapconsent-V1-ndk.so \
+    vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.dmapconsent-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.dmapconsent-V2-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@1.0.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.1.so \
@@ -103,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factory@2.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.7.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.8.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factoryservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factoryservice-V1-ndk.so \
+    vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.factoryservice-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factoryservice-V2-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.mwqemaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.mwqemaidlservice-V1-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.slm@1.0.so \
@@ -117,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.cneaidlservice.internal.api-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cneaidlservice.internal.api-V1-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.cneaidlservice.internal.server-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cneaidlservice.internal.server-V1-ndk.so \
+    vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.cneaidlservice.internal.server-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cneaidlservice.internal.server-V2-ndk.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.0.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.1.so \
     vendor/qcom/common/system/telephony/proprietary/system_ext/lib64/vendor.qti.hardware.data.connectionfactory-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connectionfactory-V1-ndk.so \
@@ -224,12 +230,14 @@ PRODUCT_PACKAGES += \
     remoteSimLockAuthentication \
     remotesimlockservice \
     uimgbaservice \
+    uimlpaservice \
     uimremoteclient \
     uimremoteserver \
     AtFwd2 \
     DeviceInfo \
     DynamicDDSService \
     ImsDataChannelService \
+    ImsRcsService \
     QtiTelephonyService \
     SimContact \
     atfwd \
@@ -243,6 +251,7 @@ PRODUCT_PACKAGES += \
     remotesimlockmanagerlibrary \
     uimgbalibrary \
     uimgbamanagerlibrary \
+    uimlpalibrary \
     uimremoteclientlibrary \
     uimremoteserverlibrary \
     uimremotesimlocklibrary \
@@ -267,6 +276,7 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-telephony-common \
     vendor.qti.data.dmapconsent-V1-java \
+    vendor.qti.data.dmapconsent-V2-java \
     vendor.qti.data.factory-V1.0-java \
     vendor.qti.data.factory-V2.0-java \
     vendor.qti.data.factory-V2.1-java \
@@ -278,6 +288,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory-V2.7-java \
     vendor.qti.data.factory-V2.8-java \
     vendor.qti.data.factoryservice-V1-java \
+    vendor.qti.data.factoryservice-V2-java \
     vendor.qti.data.mwqem-V1.0-java \
     vendor.qti.data.mwqemaidlservice-V1-java \
     vendor.qti.data.slm-V1.0-java \
@@ -291,6 +302,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.cneaidlservice.internal.api-V1-java \
     vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-java \
     vendor.qti.hardware.data.cneaidlservice.internal.server-V1-java \
+    vendor.qti.hardware.data.cneaidlservice.internal.server-V2-java \
     vendor.qti.hardware.data.connection-V1.0-java \
     vendor.qti.hardware.data.connection-V1.1-java \
     vendor.qti.hardware.data.connectionfactory-V1-java \
