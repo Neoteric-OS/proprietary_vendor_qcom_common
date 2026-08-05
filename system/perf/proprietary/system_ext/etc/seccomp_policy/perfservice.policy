@@ -68,3 +68,5 @@ gettid: 1
 # added after manual check
 setpriority: 1
 mremap: 1
+
+lseek: 1
