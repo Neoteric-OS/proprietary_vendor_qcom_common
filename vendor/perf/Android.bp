@@ -8,6 +8,15 @@ soong_namespace {
 }
 
 prebuilt_etc_xml {
+	name: "snapdragon_services.xml",
+	owner: "qcom/common",
+	src: "proprietary/vendor/etc/vintf/manifest/snapdragon_services.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.hardware.perf2.xml",
 	owner: "qcom/common",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf2.xml",

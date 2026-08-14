@@ -10,5 +10,5 @@
 service poweropt-service /vendor/bin/poweropt-service
     class hal
     user system
-    group system readproc
+    group system readproc input
 
